@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Nudge Creation API Documentation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Nudge Creation API Documentation</h1>
+  <form>
+  <h2>I want to Create a Nudge for Events</h2>
+  <div class="nudge-form">
+  <input type="text" class="nudge-title" placeholder="Tag article or event">
+  <div> <input type="text" class="nudge-title" placeholder="Title....(60 char max)"></div>
+  <h6>Choose Image</h6>
+  <div class="action-buttons">
+    <button class="choose-image-button">Choose Image</button>
+  </div> 
+  <div>
+  
+  <div class="group-box">
+    <div class="field-box">
+      <label for="schedule-date">Schedule Date:</label>
+      <input type="text" id="schedule-date" class="nudge-schedule" placeholder="YYYY-MM-DD">
+    </div>
+    <div class="field-box">
+      <label for="from-time">From:</label>
+      <input type="text" id="from-time" class="nudge-timing" placeholder="HH:mm">
+    </div>
+    <div class="field-box">
+      <label for="to-time">To:</label>
+      <input type="text" id="to-time" class="nudge-timing" placeholder="HH:mm">
+    </div>
+  
+    <div class="field-box">
+      <label for="nudge-description">Nudge Description:</label>
+      <textarea id="nudge-description" class="nudge-description" placeholder="Enter Nudge Description"></textarea>
+    </div>
+    
+  </div>
+
+  <h3>For viewing a Nudge at the end of an article</h3>
+  <div>
+    <label for="nudge-icon">Nudge Icon:</label>
+    <input type="file" id="nudge-icon" class="nudge-icon">
+  </div>
+
+ 
+
+  <div class="nudge-preview">
+    <h3>Nudge Preview:</h3>
+    <div class="nudge-box">
+      <div class="nudge-image-preview">
+        <!-- Image preview goes here -->
+      </div>
+      <div class="nudge-content">
+        <h4 class="nudge-title-preview">Nudge Title</h4>
+        <p class="nudge-invitation-preview">There's a great workshop on Reflections that's about to happen.</p>
+        <p class="nudge-description-preview">Swipe write to check it out.</p>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <button type="submit" class="preview-button">Preview</button>
+    <button type="submit" class="publish-button">Publish Now</button>
+  </div>
+</div>
+</form>
+</body>
+</html>
+  
+ 
+
+  

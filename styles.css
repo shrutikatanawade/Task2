@@ -1,0 +1,166 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  button.choose-image-button {
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  
+  
+  .nudge-title {
+    width: 25%;
+    padding: 10px; /* Adjust the padding value to increase the input size */
+    margin-bottom: 10px;
+  }
+  
+/* Add this CSS code to your existing styles.css file */
+
+.nudge-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.group-box {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+.field-box {
+  margin-right: 10px;
+}
+
+
+/* ...previous CSS code... */
+
+.nudge-description {
+  margin-top: 10px;
+  padding: 65px;
+  width:50%;
+  grid-column: 1 / -1; /* Span the full width of the form */
+}
+
+/* Additional Styles */
+.nudge-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+}
+
+.group-box {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.field-box {
+  margin-bottom: 10px;
+}
+
+/* ...previous CSS code... */
+
+
+
+
+  .endpoint {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .request-type {
+    font-weight: bold;
+  }
+  
+  .endpoint-url {
+    margin-top: 5px;
+    color: #666;
+  }
+  
+  .payload ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .description {
+    margin-top: 10px;
+    color: #666;
+  }
+  
+  .action-buttons {
+    text-align: left;
+    margin-top: 20px;
+  }
+  
+  .action-buttons button {
+    margin-left: 10px;
+  }
+  
+  .nudge-box .nudge-image-preview {
+    flex: 0 0 120px;
+    margin-right: 10px;
+    /* Add additional styles for image preview */
+  }
+  
+  .nudge-box .nudge-content {
+    flex: 1;
+  }
+  
+  .nudge-box h4,
+  .nudge-box p {
+    margin: 0;
+  }
+  
+  .nudge-box .nudge-title-preview {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .nudge-box .nudge-invitation-preview {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .nudge-box .nudge-description-preview {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .preview-button {
+    margin-right: 10px;
+  }
+  
+  /* Additional Styles */
+  .nudge-form {
+    max-width: 500px;
+   
+  }
+  
+  
+  
+  
+  
+  
+  
+  
